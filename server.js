@@ -18,7 +18,7 @@ else {
 
         else {
             console.log("Someone has loaded up the site");
-            fs.appendFile('loaded.txt', timedate + ' Someone has loaded up the website', function(err) {
+            fs.appendFile('loaded.txt', timedate + ' Someone has loaded up the website ', function(err) {
             if (err) {
                 console.log('Error logging the load up text')
             } 
